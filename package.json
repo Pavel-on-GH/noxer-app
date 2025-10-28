@@ -1,0 +1,43 @@
+{
+  "name": "noxer-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.24",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1",
+    "use-debounce": "^10.0.6",
+    "web-vitals": "^2.1.4",
+    "sass": "^1.93.2",
+    "@reduxjs/toolkit": "^2.9.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7",
+    "typescript": "^4.9.5",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "typescript-eslint": "^8.45.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.126",
+    "@types/react-redux": "^7.1.34",
+    "ts-jest": "^28.0.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0"
+  }
+}

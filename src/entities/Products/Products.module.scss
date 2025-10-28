@@ -1,0 +1,15 @@
+
+
+.products {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .products {
+        grid-template-columns: 1fr 1fr;
+    }
+}

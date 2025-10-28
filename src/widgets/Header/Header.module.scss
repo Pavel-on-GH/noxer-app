@@ -1,0 +1,76 @@
+$bg-overlay: rgba(198, 198, 198, 0.3);
+$white: #ffffff;
+$gray: #666666;
+
+@mixin buttonBase {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  height: 30px;
+  gap: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.button {
+  @include buttonBase;
+}
+
+.closeButton {
+  background: $bg-overlay;
+  border-radius: 20px;
+  padding: 0 14px;
+  color: $gray;
+}
+
+.closeImage {
+  width: 8px;
+  height: 8px;
+}
+
+.telegramButton {
+  border-radius: 40px;
+  gap: 6px;
+  font-size: 13px;
+  padding: 0 7px 0 3px;
+  margin-right: 24px;
+  background: $white;
+}
+
+.telegramImage {
+  width: 24px;
+  height: 24px;
+}
+
+.optionsButton {
+  border-radius: 20px;
+  gap: 11px;
+  padding: 0 14px;
+  background: $bg-overlay;
+}
+
+.chevronImage {
+  width: 12px;
+  height: 12px;
+}
+
+.searchWrapper {
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  height: 39px;
+  border-radius: 30px;
+  border: none;
+  padding-left: 47px;
+  font-size: 15px;
+  color: $gray;
+  background: $white url('../../assets/icons/search.svg') no-repeat 20px center;
+}

@@ -1,0 +1,43 @@
+.filters {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.filter {
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.filter:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.filterImage {
+  background: #fff;
+  border-radius: 20px;
+}
+.filterTitle {
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  color: #292928;
+  margin: 0 0 0;
+}
+
+@media screen and (max-width: 425px) {
+  .filterImage {
+    width: 79px;
+    height: 79px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .filterImage {
+    width: 66px;
+    height: 66px;
+  }
+}

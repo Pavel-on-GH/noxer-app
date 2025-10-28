@@ -1,0 +1,28 @@
+.statusBlock {
+  text-align: center;
+  margin: 40px 0;
+  color: #555;
+}
+
+.error {
+  color: red;
+  margin-bottom: 12px;
+}
+
+.retryButton {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: #333;
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+}
